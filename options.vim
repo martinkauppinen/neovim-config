@@ -17,6 +17,7 @@ set nowrap                                  " Don't wrap long lines
 set completeopt=menuone,noinsert,noselect   " Completion menu setup
 set fillchars=vert:│                        " Nicer vertical split character
 set shortmess+=I                            " Don't show startup message
+set clipboard=unnamedplus                   " Use system clipboard when yanking
 
 " Options for netrw
 let g:netrw_liststyle=3                     " Tree view
