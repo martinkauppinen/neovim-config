@@ -2,7 +2,7 @@ call plug#begin()
 
 Plug 'neovim/nvim-lspconfig'                " Common configs for lsp client
 Plug 'simrat39/rust-tools.nvim'             " rust-analyzer features
-Plug 'sainnhe/gruvbox-material'             " Nice colorscheme
+Plug 'catppuccin/nvim', { 'as': 'catppuccin' } " colorscheme
 Plug 'martinkauppinen/foldmk'               " Nice foldtext
 Plug 'hrsh7th/nvim-cmp'                     " Completion framework
 Plug 'hrsh7th/cmp-nvim-lsp'                 " [nvim-cmp] LSP completion src
